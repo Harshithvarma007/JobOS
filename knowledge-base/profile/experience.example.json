@@ -1,0 +1,14 @@
+[
+  {
+    "company": "Example Corp",
+    "title": "Software Engineer",
+    "location": "Remote",
+    "start": "2023-01",
+    "end": "present",
+    "tech": ["Python", "PostgreSQL", "AWS"],
+    "bullets": [
+      "One-line, metric-backed accomplishment the resume generator can pull from directly.",
+      "Another accomplishment, written so it can be lightly reworded to match a job description."
+    ]
+  }
+]

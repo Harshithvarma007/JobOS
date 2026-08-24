@@ -1,0 +1,6 @@
+{
+  "languages": ["Python", "TypeScript"],
+  "frameworks": ["PyTorch", "React"],
+  "tools": ["Docker", "Git", "PostgreSQL"],
+  "domains": ["Machine Learning", "Backend Systems"]
+}

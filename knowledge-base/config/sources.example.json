@@ -1,0 +1,59 @@
+[
+  {
+    "name": "JobsPipe",
+    "enabled": false,
+    "method": "api",
+    "env_key": "JOBSPIPE_API_KEY",
+    "notes": "Broad aggregator across 30+ job boards. See scripts/sources/jobspipe.py."
+  },
+  {
+    "name": "Openings MCP",
+    "enabled": false,
+    "method": "api",
+    "env_key": "OPENINGS_API_KEY",
+    "notes": "Company career pages / ATS coverage (Greenhouse, Ashby, Lever, Workday, SmartRecruiters, ...)."
+  },
+  {
+    "name": "Indeed",
+    "enabled": false,
+    "method": "mcp_tool",
+    "env_key": null,
+    "notes": "Use the built-in Indeed MCP tool (search_jobs / get_job_details) directly from the agent — no API key or script needed."
+  },
+  {
+    "name": "Wellfound",
+    "enabled": false,
+    "method": "browser_agent",
+    "env_key": null,
+    "notes": "No public API for individuals. Searched live via the Claude in Chrome extension."
+  },
+  {
+    "name": "Instahyre",
+    "enabled": false,
+    "method": "browser_agent",
+    "env_key": null,
+    "notes": "No public API. Searched live via the Claude in Chrome extension."
+  },
+  {
+    "name": "LinkedIn Jobs",
+    "enabled": false,
+    "method": "browser_agent",
+    "env_key": null,
+    "notes": "No public API for this use case. Searched live via the Claude in Chrome extension. Do not treat as the primary discovery source — use it to fill gaps and for outreach, not bulk search."
+  },
+  {
+    "name": "YC / Work at a Startup",
+    "enabled": false,
+    "method": "browser_agent",
+    "env_key": null,
+    "notes": "No public API. Searched live via the Claude in Chrome extension, or via an API-based aggregator if you have one that covers it."
+  },
+  {
+    "name": "custom-api-source",
+    "enabled": false,
+    "method": "api",
+    "env_key": "YOUR_CUSTOM_API_KEY",
+    "endpoint": "https://api.example.com/jobs/search",
+    "notes": "Template for any other REST job-search API you have a key for. Duplicate this entry, rename it, fill in the endpoint, add the key to .env, and point scripts/sources/generic_api.py at it — or ask the agent to wire it up."
+  }
+]

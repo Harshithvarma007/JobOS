@@ -1,0 +1,17 @@
+# Real user instance data — never shared
+local-data/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Google credentials
+*credentials*.json
+*token*.json
+service-account*.json
+
+# OS
+.DS_Store

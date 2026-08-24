@@ -1,0 +1,17 @@
+{
+  "name": "Jane Doe",
+  "email": "jane@example.com",
+  "phone": "+1-555-0100",
+  "location": "City, Country",
+  "links": {
+    "portfolio": "https://example.com",
+    "github": "https://github.com/janedoe",
+    "linkedin": "https://www.linkedin.com/in/janedoe/",
+    "other": []
+  },
+  "work_authorization": {
+    "countries_authorized_in": ["Country"],
+    "visa_sponsorship_needed": true,
+    "notes": ""
+  }
+}

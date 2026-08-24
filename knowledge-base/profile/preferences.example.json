@@ -1,0 +1,22 @@
+{
+  "target_roles": ["Software Engineer", "ML Engineer"],
+  "seniority": {
+    "include": ["mid", "senior"],
+    "exclude": ["intern", "staff", "principal"],
+    "exclude_unless_unusually_suitable": true
+  },
+  "locations": ["Remote", "City, Country"],
+  "remote_ok": true,
+  "relocation_ok": false,
+  "compensation": {
+    "currency": "USD",
+    "minimum_acceptable": 0,
+    "target": 0
+  },
+  "prioritize": [
+    "AI startups",
+    "YC companies"
+  ],
+  "exclude_industries": [],
+  "exclude_companies": []
+}

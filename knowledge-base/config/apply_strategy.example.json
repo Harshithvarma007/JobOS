@@ -1,0 +1,28 @@
+{
+  "global": {
+    "auto_submit": false,
+    "note": "auto_submit=false means every generated resume/cover letter/outreach message is drafted and shown for review, never sent or submitted automatically. Set true per-tier below only if you deliberately want that tier fully hands-off."
+  },
+  "by_tier": {
+    "S": {
+      "generate_resume": true,
+      "generate_cover_letter": true,
+      "outreach": true,
+      "outreach_type": ["email_draft", "linkedin_connection_note"],
+      "auto_submit": false
+    },
+    "A": {
+      "generate_resume": false,
+      "generate_cover_letter": false,
+      "outreach": false,
+      "auto_submit": false,
+      "note": "found and logged in the sheet only; upgrade to full effort manually if a listing turns out to matter"
+    },
+    "B": {
+      "generate_resume": false,
+      "generate_cover_letter": false,
+      "outreach": false,
+      "auto_submit": false
+    }
+  }
+}

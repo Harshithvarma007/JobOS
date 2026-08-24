@@ -1,0 +1,12 @@
+{
+  "cadence": "uniform",
+  "note": "cadence is 'uniform' (all sources/tiers checked on the same schedule), 'tiered' (top tier checked more often — set per_tier_frequency below), or 'on_demand' (no schedule; only run when explicitly asked).",
+  "frequency": "daily",
+  "per_tier_frequency": {
+    "note": "only read when cadence is 'tiered'",
+    "S": "daily",
+    "A": "every_3_days",
+    "B": "weekly"
+  },
+  "custom_instructions": ""
+}

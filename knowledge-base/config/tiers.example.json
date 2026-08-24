@@ -1,0 +1,44 @@
+{
+  "scheme_type": "fit_score",
+  "description": "Every new listing is scored 0-100 against the profile (role fit, comp signal, company signal). The score maps to a tier via the thresholds below.",
+  "tiers": [
+    {
+      "tier": "S",
+      "label": "Dream fit",
+      "min_score": 80,
+      "max_score": 100
+    },
+    {
+      "tier": "A",
+      "label": "Good fit",
+      "min_score": 55,
+      "max_score": 79
+    },
+    {
+      "tier": "B",
+      "label": "Backup / long-shot",
+      "min_score": 0,
+      "max_score": 54
+    }
+  ],
+  "alternate_schemes": {
+    "note": "scheme_type can be swapped for one of these instead of fit_score — edit this file's top-level scheme_type and replace `tiers` with the matching shape.",
+    "company_stage": {
+      "scheme_type": "company_stage",
+      "tiers": [
+        { "tier": "Dream", "companies": [] },
+        { "tier": "Target", "companies": [] },
+        { "tier": "Backup", "companies": ["*"] }
+      ]
+    },
+    "compensation": {
+      "scheme_type": "compensation",
+      "currency": "USD",
+      "tiers": [
+        { "tier": 1, "min": 0, "label": "Top comp band" },
+        { "tier": 2, "min": 0, "label": "Mid comp band" },
+        { "tier": 3, "min": 0, "label": "Below target" }
+      ]
+    }
+  }
+}
