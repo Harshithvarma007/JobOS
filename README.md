@@ -1,5 +1,7 @@
 # JobOS
 
+~NO~ AI was harmed will building this
+
 A Claude Code skill that runs your job search end-to-end: search multiple job sources, score and tier every listing against your profile, track everything in one Google Sheet, and (for the tiers you choose) draft tailored resumes, cover letters, and outreach.
 
 JobOS is a **template**. Nothing in this repo contains anyone's personal data — your real profile, resume, API keys, and Google Sheet link live in `local-data/` and `.env`, both git-ignored. Clone it, run the onboarding flow once, and it becomes your own private job-search system.
